@@ -1,0 +1,83 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/12/2017 11:53
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-home:before { content: "\f100"; }
+.flaticon-settings:before { content: "\f101"; }
+.flaticon-compass:before { content: "\f102"; }
+.flaticon-bathroom-faucet-tool:before { content: "\f103"; }
+.flaticon-menu-button:before { content: "\f104"; }
+.flaticon-tool:before { content: "\f105"; }
+.flaticon-drill:before { content: "\f106"; }
+.flaticon-like:before { content: "\f107"; }
+.flaticon-bathtub:before { content: "\f108"; }
+.flaticon-restaurant:before { content: "\f109"; }
+.flaticon-delivery-truck-1:before { content: "\f10a"; }
+.flaticon-coffee-shop:before { content: "\f10b"; }
+.flaticon-list-menu:before { content: "\f10c"; }
+.flaticon-tap:before { content: "\f10d"; }
+.flaticon-message:before { content: "\f10e"; }
+.flaticon-delivery-truck:before { content: "\f10f"; }
+.flaticon-operator:before { content: "\f110"; }
+.flaticon-construction-1:before { content: "\f111"; }
+.flaticon-money:before { content: "\f112"; }
+.flaticon-church:before { content: "\f113"; }
+.flaticon-construction:before { content: "\f114"; }
+.flaticon-engineer:before { content: "\f115"; }
+    
+    $font-Flaticon-home: "\f100";
+    $font-Flaticon-settings: "\f101";
+    $font-Flaticon-compass: "\f102";
+    $font-Flaticon-bathroom-faucet-tool: "\f103";
+    $font-Flaticon-menu-button: "\f104";
+    $font-Flaticon-tool: "\f105";
+    $font-Flaticon-drill: "\f106";
+    $font-Flaticon-like: "\f107";
+    $font-Flaticon-bathtub: "\f108";
+    $font-Flaticon-restaurant: "\f109";
+    $font-Flaticon-delivery-truck-1: "\f10a";
+    $font-Flaticon-coffee-shop: "\f10b";
+    $font-Flaticon-list-menu: "\f10c";
+    $font-Flaticon-tap: "\f10d";
+    $font-Flaticon-message: "\f10e";
+    $font-Flaticon-delivery-truck: "\f10f";
+    $font-Flaticon-operator: "\f110";
+    $font-Flaticon-construction-1: "\f111";
+    $font-Flaticon-money: "\f112";
+    $font-Flaticon-church: "\f113";
+    $font-Flaticon-construction: "\f114";
+    $font-Flaticon-engineer: "\f115";
